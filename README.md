@@ -1,6 +1,6 @@
 # raf3 museum
 
-A monochrome personal gaming gear collection featuring 10 items, category filters, and individual exhibit pages.
+A monochrome 3D display cabinet for a personal gaming gear collection. CSS 3D geometry provides cabinet walls, shelves, and plinths; all 10 products use credited photographs. Includes pointer parallax, a motion toggle, category filters, an accessible inspection dialog, and a list view.
 
 ## Preview locally
 
