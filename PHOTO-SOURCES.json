@@ -48,5 +48,10 @@
     "image": "assets/object-010.webp",
     "credit": "Binary Acoustics",
     "source": "https://binary.audio/products/upcoming-binary-1900-10mm-dd-6mm-passive-diaphragm-4ba-in-ear-monitors"
+  },
+  "011": {
+    "image": "assets/object-011.webp",
+    "credit": "Keychron",
+    "source": "https://www.keychron.com/products/keychron-g6-he-ultra-light-wireless-mouse"
   }
 }

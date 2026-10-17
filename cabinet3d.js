@@ -23,13 +23,13 @@ export function initCabinet({objects,fullName,onPick}) {
  box(8.4,6.65,.18,0,0,-.74,back);box(.18,6.65,1.6,-4.11,0,0);box(.18,6.65,1.6,4.11,0,0);
  box(8.4,.18,1.6,0,3.24,0);box(8.4,.24,1.6,0,-3.21,0);
  box(8.05,.11,1.44,0,0,.04,shelf);box(8.05,.11,1.44,0,-1.57,.04,shelf);box(3.99,.11,1.44,2,1.57,.04,shelf);
- box(.1,6.3,1.44,0,0,.04,shelf);box(.09,1.5,1.44,2,2.36,.04,shelf);box(.09,3.12,1.44,2,-1.57,.04,shelf);
+ box(.1,6.3,1.44,0,0,.04,shelf);box(.09,1.45,1.44,-2,-.79,.04,shelf);box(.09,1.5,1.44,2,2.36,.04,shelf);box(.09,3.12,1.44,2,-1.57,.04,shelf);
  for(const x of [-3.65,3.65])for(const z of [-.5,.5])box(.22,.28,.22,x,-3.47,z,shelf);
  // A clean, framed back panel and inset manufacturer's plate make the reverse a finished surface.
  box(7.9,6.15,.04,0,0,-.85,shell);
  const slots={
  '001':[-2,1.57,3.95,3.04],'002':[1,2.35,1.94,1.48],'003':[3,2.35,1.94,1.48],
- '004':[2,.79,3.94,1.45],'005':[-2,-.79,3.94,1.45],'010':[1,-.79,1.94,1.45],'006':[3,-.79,1.94,1.45],
+ '004':[2,.79,3.94,1.45],'005':[-3,-.79,1.94,1.45],'011':[-1,-.79,1.94,1.45],'010':[1,-.79,1.94,1.45],'006':[3,-.79,1.94,1.45],
  '007':[-2,-2.35,3.94,1.48],'008':[1,-2.35,1.94,1.48],'009':[3,-2.35,1.94,1.48]};
  function textPlane(text,width,height,x,y,z,rotation=0,size=40,color='#ddd'){const c=document.createElement('canvas');c.width=1024;c.height=128;const ctx=c.getContext('2d');ctx.fillStyle='#202022';ctx.fillRect(0,0,c.width,c.height);ctx.fillStyle=color;ctx.font=`500 ${size}px sans-serif`;ctx.textBaseline='middle';ctx.fillText(text,26,64,970);const t=new THREE.CanvasTexture(c);t.colorSpace=THREE.SRGBColorSpace;const m=new THREE.Mesh(new THREE.PlaneGeometry(width,height),new THREE.MeshBasicMaterial({map:t,side:THREE.FrontSide}));m.position.set(x,y,z);m.rotation.y=rotation;cabinet.add(m);return m;}
  textPlane('raf3 museum  /  PERSONAL COLLECTION',3.8,.46,0,-2.65,-.88,Math.PI,42);
