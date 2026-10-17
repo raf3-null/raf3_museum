@@ -1,0 +1,2 @@
+# Approved direction
+Experience mode. Monochrome editorial museum; near-white canvas, black typography, generous whitespace, thin dividing rules, asymmetrical exhibit composition. Oversized serif exhibition title, sans-serif navigation and Thai text. Object registration numbers convey catalog identity. Black featured exhibit. Category filters and hash-addressable detail views. Missing photos become intentional textual catalog entries, never substitute product images. Respect reduced motion.

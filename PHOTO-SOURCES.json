@@ -1,0 +1,52 @@
+{
+  "001": {
+    "image": "assets/viper-v4.jpg",
+    "credit": "Razer",
+    "source": "https://www.razer.com/gaming-mice/razer-viper-v4-pro/RZ01-05630100-R3U1"
+  },
+  "002": {
+    "image": "assets/object-002.webp",
+    "credit": "Razer",
+    "source": "https://www.razer.com/gaming-mice/razer-viper-v3-pro/RZ01-05120100-R3U1"
+  },
+  "003": {
+    "image": "assets/object-003.webp",
+    "credit": "ATK",
+    "source": "https://www.atk.store/products/atk-blazing-sky-zero-ultralight-wireless-gaming-mouse"
+  },
+  "004": {
+    "image": "assets/object-004.webp",
+    "credit": "Keebforce",
+    "source": "https://keebforce.com/keebforce-everglide-ae68-pro/"
+  },
+  "005": {
+    "image": "assets/object-005.webp",
+    "credit": "Berserkeys",
+    "source": "https://berserkeys.com.au/product/evo75-wireless-custom-mechanical-keyboard/"
+  },
+  "006": {
+    "image": "assets/object-006.webp",
+    "credit": "Micemod",
+    "source": "https://micemod.gg/en/collections/store-8-new-arrivals/products/x-raypad-nod"
+  },
+  "007": {
+    "image": "assets/object-007.webp",
+    "credit": "Toronto KeyboardMan",
+    "source": "https://torontokeyboardman.ca/products/psyche-gear-mid-01-yeku-glass-mousepad"
+  },
+  "008": {
+    "image": "assets/object-008.webp",
+    "credit": "JP Gaming",
+    "source": "https://jpgamingusa.com/products/artisan-fx-hayate-otsu-v2-mousepad"
+  },
+  "009": {
+    "image": "assets/object-009.webp",
+    "credit": "Micemod",
+    "source": "https://micemod.gg/collections/store-8-new-arrivals/products/onixy-nyx-micemod-5th-anniversary-se-monochrome"
+  },
+  "010": {
+    "image": "assets/object-010.webp",
+    "credit": "Binary Acoustics",
+    "source": "https://binary.audio/products/upcoming-binary-1900-10mm-dd-6mm-passive-diaphragm-4ba-in-ear-monitors"
+  }
+}
