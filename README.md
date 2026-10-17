@@ -7,16 +7,21 @@ A monochrome personal gaming gear collection featuring 10 items, category filter
 No dependencies or build step required. From the repository root:
 
 ```sh
-python3 -m http.server 4173 --directory dist
+python3 -m http.server 4173
 ```
 
 Open http://localhost:4173.
 
 ## Structure
 
-- `dist/` — deployable HTML, CSS, JavaScript, and optimized product photographs
+- `index.html`, `style.css`, and `app.js` — website source at the repository root
+- `assets/` — optimized product photographs
 - `PHOTO-SOURCES.json` — image sources and credits
 - `PRODUCT.md` and `DESIGN.md` — product and visual direction
 - `.openai/hosting.json` — existing Sites deployment configuration
 
 Product images belong to their respective owners. Sources are linked on each product page.
+
+## Vercel
+
+Import this repository as a static site. Use the repository root, with no build command or dependency installation.
