@@ -1,6 +1,6 @@
 # raf3 museum
 
-A dark handwritten gaming gear scrapbook, with 11 products grouped into four categories. Includes category filters, credited product photography and keyboard-accessible detail dialogs. No build step or third-party JavaScript dependencies.
+A dark handwritten gaming gear scrapbook, with 12 products grouped into four categories. Includes category filters, credited product photography and keyboard-accessible detail dialogs. No build step or third-party JavaScript dependencies.
 
 ## Preview locally
 

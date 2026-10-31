@@ -53,5 +53,10 @@
     "image": "assets/object-011.webp",
     "credit": "Keychron",
     "source": "https://www.keychron.com/products/keychron-g6-he-ultra-light-wireless-mouse"
+  },
+  "012": {
+    "image": "assets/object-012.webp",
+    "credit": "1337GEAR",
+    "source": "https://www.1337gear.gg/products/shion-glass-mousepad"
   }
 }
